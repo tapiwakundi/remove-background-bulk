@@ -14,7 +14,7 @@ export async function clip(item: Item, apiKey: string): Promise<Clip> {
   // Send to service
   const fd = new FormData()
   fd.append('image_file', item.file)
-  fd.append('upscale', '2')
+  fd.append('upscale', '4')
 
   let response
   try {

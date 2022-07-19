@@ -142,7 +142,7 @@ function App() {
     <div className="w-full flex flex-col items-center mx-auto px-5">
       <div className="container flex flex-col pt-10 w-full max-w-5xl space-y-12">
         <h1 className="text-2xl font-bold">
-          Stephens Stupendoues bulk image enhancer
+          Image enhancer
         </h1>
         <APIKeyInput
           value={apiKey}
